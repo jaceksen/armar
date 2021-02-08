@@ -1,0 +1,991 @@
+{
+  "settings": {
+    "name": "TESTOWY2",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#849197",
+        "secondaryColor": "#3d8eb9",
+        "successColor": "#90a878",
+        "infoColor": "#f3c649",
+        "warningColor": "#41a85f",
+        "dangerColor": "#f28281",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      },
+      "additionalSetColors": [
+        "#4b6b8c",
+        "#4c6d8e",
+        "#677b94",
+        "#849197",
+        "#d98e1f",
+        "#232323",
+        "#a11a19"
+      ]
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 69,
+    "versionPublish": "4.7.8",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#efefef"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#efefef"
+            },
+            ".link, .dropdown-item": {
+              "color": "#efefef",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-family": "'Montserrat', sans-serif"
+            },
+            ".link": {
+              "font-size": "1.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.245rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#3a536d"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#476584!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#4c6d8e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#efefef",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#849197!important"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-u",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "hideButtons": true,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "bgColor": "#4c6d8e",
+            "fontSize": "1.15",
+            "fontName": {
+              "name": "Montserrat",
+              "url": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "css": "'Montserrat', sans-serif"
+            },
+            "fontColor": "#efefef",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/armarlogo11-189x51.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": ""
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-primary\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html#header1-0\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">START</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-1k\">O nas</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-1l\" aria-expanded=\"true\">Oferta</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-1l\" aria-expanded=\"true\">Georadar</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#content1-1f\">Cennik</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-19\">Terminy</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#contacts2-14\">Kontakt</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-lead": {
+              "text-align": "center",
+              "color": "#ffffff",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "header1-0",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tlo4-1920x1277.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#000",
+            "overlayOpacity": "0.3"
+          },
+          "title": "",
+          "text": "Nasza firma świadczy szeroki zakres usług geodezyjnych i kartograficznych.<br>Wykonujemy mapy do celów projektowych, obsługę inwestycji kubaturowych, drogowych i liniowych.<br>Oferujemy szeroki zakres usług, doświadczenie i profesjonalizm, dobre ceny i terminy. Gwarantujemy wysoką jakość potwierdzoną opiniami zadowolonych klientów.<br>&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> "
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1k"
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "I<br><br>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1j",
+          "_styles": {
+            "DIV": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "P": {
+              "font-size": "17px",
+              "color": "#4b4e59",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "content2-x",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><br></p><p><span style=\"font-style: normal;\"><b>ARMAR</b> działa od<b> 1998 r</b>. jako spółka cywilna.&nbsp;<span style=\"font-size: 1.09rem; line-height: 1.5;\">Wieloletnie doświadczenie, wsparte stale pogłębianą wiedzą, pozwala nam odpowiedzialnie podejmować zadania z szeroko rozumianej geodezji.&nbsp;</span></span></p><p><span style=\"font-size: 1.09rem; line-height: 1.5; font-style: normal;\"><br></span></p><p><span style=\"font-size: 1.07rem; line-height: 1.5; font-style: normal;\">Zasięgiem swojego działania obejmujemy  województwo wielkopolskie, szczególną uwagę zwracając na okolice Poznania i Grodziska Wielkopolskiego.&nbsp;</span></p></blockquote><blockquote><p><span style=\"font-size: 1.09rem; line-height: 1.5; font-style: normal;\">Wśród naszych zadowolonych klientów znajdują się urzędy miast, deweloperzy, firmy utrzymujące infrastrukturę  teletechniczną, firmy drogowe.</span></p></blockquote>"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<p>M</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1l",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-w",
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tlo2-2000x1294.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.3"
+          },
+          "title": "Oferta",
+          "text": "<p>Articl</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "24px"
+            },
+            ".mbr-section-title": {
+              "color": "#4b4e59",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-y",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "<br>Wykonujemy prace w pełnym zakresie spotykanym w codziennej praktyce",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "text": "<b>W Ofercie :</b>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1g",
+          "_styles": {
+            "B": {
+              "color": "#4b4e59",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "16px",
+              "text-align": "left"
+            },
+            "P": {
+              "font-size": "17px",
+              "text-align": "left"
+            },
+            "UL": {
+              "text-align": "left",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "content2-d",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><span style=\"font-style: normal;\">Mapy dla celów projektowych\n<br>Tyczenie budynków i budowli&nbsp;<br>Podziały nieruchomości<br>Wznowienia znaków granicznych&nbsp;</span><br></blockquote>"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Poza typowymi pracami wykonujemy:</b>.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1e",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#4b4e59",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><p><span style=\"font-size: 1.07rem; font-style: normal;\">Pomiary elewacji</span><br></p><p><span style=\"font-size: 16px;\"><span style=\"font-style: normal;\">Obserwacje przemieszczeń</span><br></span><span style=\"font-style: normal;\"><span style=\"font-size: 16px;\">Inwentaryzacje sieci technicznego uzbrojenia terenu (kanalizacja deszczowa, melioracja szczegółowa,\n&nbsp;</span><span style=\"font-size: 1.09rem;\">sieci energetyczne)&nbsp;</span></span></p></blockquote>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1d",
+          "_styles": {
+            "DIV": {
+              "text-align": "left"
+            },
+            "BLOCKQUOTE": {
+              "font-size": "16px"
+            },
+            "P": {
+              "text-align": "left",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Wyniki wszystkich prac możemy przekazać w postaci numerycznej (dxf, dgn, dwg).&nbsp;</b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1f",
+          "_styles": {
+            "P": {
+              "font-size": "16px",
+              "color": "#4b4e59",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tlo2-2000x1294.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.3"
+          },
+          "title": "Georadar",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1q"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>Wychodząc na przeciw rosnącemu zapotrzebowaniu na ustalenie oraz podanie dokładnej lokalizacji obiektów budowlanych (sieci uzbrojenia terenu, przeszkody). Proponujemy wykonanie prac detekcyjnych za pomocą georadaru Leica DS 2000 oraz systemu Leica Ultra.</p><p><br></p><p><b>ZASTOSOWANIE:</b></p>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1o",
+          "_styles": {
+            "P": {
+              "font-size": "17px",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><span style=\"font-style: normal;\"><b>PROJEKTOWANIE</b> nowych budynków, dróg itp. niezbędną wiedzą dla projektantów jest informacja o dokładnym usytuowaniu sieci uzbrojenia terenu celem dostosowania nowej infrastruktury\n</span></blockquote>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1r",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><span style=\"font-size: 1.09rem; font-style: normal;\"><b>PRACE BUDOWLANE</b> – w trakcie prac budowlanych  (wykopy, przewierty) wykonawcy potrzebują dokładnej informacji o przebiegu istniejących sieci uzbrojenia terenu oraz innych obiektów budowlanych, obowiązująca mapa zasadnicza wielokrotnie nie jest tożsama z stanem faktycznym w terenie co powoduje liczne zniszczenia przy pracach budowlanych. Dzięki detekcji georadarem dokładnie wskazujemy usytuowanie wszystkich elementów infrastruktury podziemnej.&nbsp;</span></blockquote>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1s",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><span style=\"font-size: 1.09rem; font-style: normal;\"><b>ARCHEOLOGIA</b> – Dla prac archelogicznych wskazanie miejsc z zauważonymi anomaliami może pomóc przy ustaleniu dodatkowych obiektów które podlegają inwentaryzacji archeologicznej.</span><br></blockquote>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content2",
+          "_anchor": "content2-1t",
+          "_styles": {
+            "SPAN": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>SPRZĘT: Leica DS 2000</b> jest nowoczesnym cyfrowym lokalizatorem infrastruktury podziemnej opartej na technologi radarowej, pozwalającej określić położenie oraz głębokość kabli, rur zarówno metalowych jak i nie metalowych ( PVC, plastik, cement) <b>Georadar DS 2000</b> dzięki zastosowaniu nowoczesnej, dwuczęstotliwościowej anteny ( 250-700 MHz) wykrywa głęboko ( 250MHz) i płytko (700MHz) położone obiekty, już  podczas jednego skanowania oszczędzając czas i koszty.</p><p><br></p><p>\n</p><p>\n</p><p>Fale elektromagnetyczne wysyłane z anteny nadawczej, kiedy dostają się do rury, kabli ( nie ma znaczenia czy dane kable są pod napięciem czy nie)  odbijają się od niego i wracają do odbiornika. W ten sposób, nasz komputer-oprogramowanie tworzy obrazy.\n</p><p>\n</p><p><b>Leica DS 2000</b> , stosowany do podziemnego inspekcji, jest nieinwazyjną technologia, która może zidentyfikować istnienie i położenie zakopanych  obiektów, wykorzystując odbicia fale elektromagnetyczne.</p><p><br></p><p>\n</p><p>\n</p><p>Jest to przedstawienie precyzyjnych informacji położenia kabli, określenie szerokości, głębokości, ilości kabli oraz anomalii jakie występują pod powierzchnia ziemi na trasie kabli, rur innych obiektów z dokładnością +-10mm</p>",
+          "_tags": [
+            "Motywy"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1v",
+          "_styles": {
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_inherit": "gallery1",
+          "_params": {
+            "showBullets": true,
+            "fullWidth": false,
+            "spacing": "1",
+            "paddingTop": 4,
+            "paddingBottom": 4,
+            "filterBgColor": false,
+            "bgColor": "fff",
+            "showText": false,
+            "filter": false,
+            "images": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/leica-ds2000-utility-detection-radar-gpr-kopia-500x500.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/leica-ds2000-utility-detection-radar-gpr-kopia-500x500-500x500.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here",
+                "active": true
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/code-man.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/desktop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Beautiful",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "alt": "",
+                "title": "",
+                "caption": "Type caption here"
+              }
+            ]
+          },
+          "_tags": [
+            "Motywy"
+          ],
+          "articleLayout": false,
+          "allItem": "All",
+          "_name": "gallery2",
+          "_anchor": "gallery2-1w"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-h",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tlo2-2000x1294.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.3"
+          },
+          "title": "Cennik&nbsp;",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            },
+            "H3": {
+              "font-size": "24px"
+            },
+            ".mbr-section-title": {
+              "color": "#4b4e59",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-z",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": 1,
+            "paddingBottom": "0",
+            "bgColor": "#fff"
+          },
+          "title": "Typowe prace geodezyjne",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "16px",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            "P": {
+              "font-size": "17px"
+            },
+            "UL": {
+              "text-align": "left",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "content2-q",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><span style=\"font-style: normal;\">Mapy dla celów projektowych od 650 zł\n<br>Mapy dla celów projektowych dla obiektów liniowych od 1500 zł za kilometr <br>Tyczenia budynków o od 1500 zł za oś <br>Pomiary powykonawcze od 650 zł <br>Podział nieruchomości od 2000 zł za pierwsze dwie działki do 800 zł za każdą kolejną <br>Wznowienie znaków granicznych\tod 400 zł za pierwsze trzy punkty wznawiane, 80 zł za każdy kolejny <br>Obsługa inwestycji od 450 zł za dzień pracy zespołu</span></blockquote>"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Powyższe ceny nie uwzględniają podatku VAT. Mogą podlegać negocjacji. W szczególności mogą być obniżone w przypadku zlecenia więcej niż jednego opracowania. \n</b></p><p><b>Powyższa oferta ma charakter informacyjny i nie stanowi oferty handlowej w rozumieniu art. 66 §1 Kodeksu Cywilnego</b></p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1h",
+          "_styles": {
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "16px",
+              "color": "#4b4e59"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-19",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-s",
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tlo2-2000x1294.png",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": "0.3"
+          },
+          "title": "Terminy",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content2",
+          "_styles": {
+            "BLOCKQUOTE": {
+              "font-size": "16px"
+            },
+            "P": {
+              "font-size": "16px"
+            },
+            "UL": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            },
+            "SPAN": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          },
+          "_anchor": "content2-t",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgColor": "#fff"
+          },
+          "text": "<blockquote><span style=\"font-style: normal;\">Typowe mapy dostarczamy w ciągu 3-4 tygodni.\r<br>Tyczenie budynków możemy przeprowadzić w ciągu 1 tygodnia. <br>Podział nieruchomości to około 4 miesiące. <br>Pomiary powykonawcze możemy wykonywać z dnia na dzień. <br>Wznowienia znaków granicznych 1 miesiąc.</span></blockquote>"
+        },
+        {
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p><b>Zwracamy uwagę, że czas wykonania niektórych prac zależy również od organów administracji oraz sprawności poczty. W szczególnych przypadkach istnieje możliwość skrócenia terminów</b>.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-1i",
+          "_styles": {
+            "P": {
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700",
+              "font-size": "16px",
+              "color": "#4b4e59"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-1a",
+          "_params": {
+            "showMeta": false,
+            "paddingTop": "2",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "title": "",
+          "meta": "By John Smith posted July 20, 2016"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts2",
+          "_anchor": "contacts2-14",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": "0",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/tlo5-1920x1080.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#4b4e59",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8,
+            "googleMap": {
+              "address": "Granowo, Kościańska 14",
+              "placeId": "ChIJOS2Ille1BUcR94K5H4V8xvs",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "text1": "<p><strong>Adres</strong><br>62-066 Granowo<br>ul. Kościańska 14<br>NIP: 995 002 7159<br><br><br><strong>Kontakt<br></strong><br>inż. Marek Zeiliński<br>geodeta uprawniony&nbsp;<br>nr uprawnień: 16924</p><p>telefon: +48 608 628 600<br></p><p><br>Arkadiusz Ziółkowski&nbsp;<br><span style=\"font-size: 0.875rem;\">geodeta</span></p><p>telefon: +48 608 628 286<span style=\"font-size: 0.875rem;\"><br><br></span></p><p>e-mail: ug.armar@gmail.com<br></p><p><br><br></p>",
+          "text2": "<p class=\"mbr-contacts__text\"><font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\"><b>Zaprzyjaźnione strony</b></span></font></p><ul><li><a href=\"http://www.mlgtrade.com/\" target=\"_blank\" class=\"text-info\">MLG Trade</a></li></ul>",
+          "_styles": {
+            "P": {
+              "font-size": "14px",
+              "text-align": "left",
+              "color": "#ffffff",
+              "font-family": "'Droid Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Droid+Sans:400,700"
+            }
+          }
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-7",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4b4e59",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2018 MLG Trade<b> - <a href=\"http://www.mlgtrade.com/\" target=\"_blank\" class=\"text-info\">www.mlgtrade.pl</a></b>"
+        }
+      ]
+    }
+  }
+}
